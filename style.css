@@ -67,3 +67,23 @@ button {
   border: none;
   cursor: pointer;
 }
+.explore-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 34px;
+    background:#C9A45C;
+    color:#ffffff;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:16px;
+    font-weight:600;
+    letter-spacing:0.5px;
+    transition:all .3s ease;
+    box-shadow:0 8px 20px rgba(201,164,92,.35);
+}
+
+.explore-btn:hover{
+    background:#b89045;
+    transform:translateY(-3px);
+    box-shadow:0 12px 28px rgba(201,164,92,.45);
+}
